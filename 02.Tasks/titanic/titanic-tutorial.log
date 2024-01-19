@@ -1,0 +1,17 @@
+[{"stream_name":"stderr","time":3.050388401,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":7.221387765,"data":"[NbConvertApp] Executing notebook with kernel: python3\n"}
+,{"stream_name":"stderr","time":13.943132625,"data":"Error in atexit._run_exitfuncs:\n"}
+,{"stream_name":"stderr","time":13.943195974,"data":"Traceback (most recent call last):\n"}
+,{"stream_name":"stderr","time":13.943259245,"data":"  File \"/opt/conda/lib/python3.6/logging/__init__.py\", line 1944, in shutdown\n"}
+,{"stream_name":"stderr","time":13.943271574,"data":"    h.flush()\n"}
+,{"stream_name":"stderr","time":13.943296734,"data":"  File \"/opt/conda/lib/python3.6/site-packages/absl/logging/__init__.py\", line 891, in flush\n"}
+,{"stream_name":"stderr","time":13.943307454,"data":"    self._current_handler.flush()\n"}
+,{"stream_name":"stderr","time":13.943343654,"data":"  File \"/opt/conda/lib/python3.6/site-packages/absl/logging/__init__.py\", line 785, in flush\n"}
+,{"stream_name":"stderr","time":13.943354365,"data":"    self.stream.flush()\n"}
+,{"stream_name":"stderr","time":13.943380865,"data":"  File \"/opt/conda/lib/python3.6/site-packages/ipykernel/iostream.py\", line 341, in flush\n"}
+,{"stream_name":"stderr","time":13.943390665,"data":"    if self.pub_thread.thread.is_alive():\n"}
+,{"stream_name":"stderr","time":13.943414485,"data":"AttributeError: 'NoneType' object has no attribute 'thread'\n"}
+,{"stream_name":"stderr","time":14.600797787,"data":"[NbConvertApp] Writing 27712 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":15.685571072,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":16.285695699,"data":"[NbConvertApp] Writing 305664 bytes to __results__.html\n"}
+]
